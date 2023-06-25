@@ -6,11 +6,11 @@ _id: ID
 username: String 
 email: String 
 password: String 
-savedBooks: [bookSchema]
+savedBooks: [Book]
 }
 
 type Book {
-_id: string
+_id: ID
 authors: [String]
 description: String!
 image: String 
@@ -21,6 +21,22 @@ title: String!
 type Query {
 users: [User]
 books: [Book]
+}
+
+type Auth{
+token: String
+user: User
+}
+
+type Query {
+user(id:ID, username:String): User
+}
+
+type Mutation {
+createUser(username: String, email:String, password: String); Auth 
+login(usernameOrEmail:String, password:String): Auth
+saveBook(input:BookInput):User
+deleteBook(bookId:ID):User
 }
 `
 
