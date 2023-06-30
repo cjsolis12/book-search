@@ -1,1 +1,1 @@
-build: npm run develop
+build: npm start
