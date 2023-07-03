@@ -3,7 +3,7 @@
  ## Description
   This application uses the Google Books API search engine to search for books. A user can create an account and save searched books to their profile if logged in. The application was built using RESTFUL APIs but was refactored to be a GraphQL API build with Apollo Server. The app uses React for the front end, MongoDB database, and Node/Express server and API. 
 
-![Image Description](./Develop/client/public/book-search.png)
+![Image Description](./client/public/book-search.png)
 
 
   ## Table of Contents
