@@ -21,7 +21,7 @@
   ## Usage
   Any user can search books but will not have the option to save searched books. A user can create and account and once logged in, they can save any books searched. 
 
-  Deployed app: 
+  Deployed app: https://findabook-2dad4576cbd6.herokuapp.com/
 
 
   ## Credits
